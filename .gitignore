@@ -1,0 +1,97 @@
+# WordPress Core Files
+blog/wp-config.php
+blog/wp-config-sample.php
+blog/.htaccess
+
+# WordPress Database & Cache
+blog/wp-content/cache/
+blog/wp-content/backup-db/
+*.sql
+*.sql.gz
+
+# WordPress Uploads (optional - comment if you want to include uploads)
+blog/wp-content/uploads/
+blog/wp-content/upgrade/
+
+# WordPress Plugins (keep only custom plugins)
+blog/wp-content/plugins/akismet/
+blog/wp-content/plugins/hello.php
+
+# WordPress Themes (keep only custom theme)
+blog/wp-content/themes/twenty*/
+
+# WordPress Debug & Log Files
+blog/wp-content/debug.log
+blog/error_log
+blog/php_error.log
+
+# WordPress Advanced Cache
+blog/wp-content/advanced-cache.php
+blog/wp-content/object-cache.php
+
+# WordPress Sitemap
+blog/sitemap.xml
+blog/sitemap.xml.gz
+
+# Node Modules (if using npm)
+node_modules/
+package-lock.json
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Build Files
+dist/
+build/
+
+# Backup Files
+*.bak
+*.backup
+
+# Compressed Files (except source files)
+*.zip
+*.tar.gz
+*.rar
+
+# Keep these files
+!blog/wp-content/themes/edulearn-theme/
+!wordpress-theme/
+!*.md
+!*.html
+!*.css
+!*.js
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
