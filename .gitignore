@@ -9,6 +9,9 @@ blog/wp-content/backup-db/
 *.sql
 *.sql.gz
 
+# Database Export (DO NOT COMMIT)
+edulearn_blog.sql
+
 # WordPress Uploads (optional - comment if you want to include uploads)
 blog/wp-content/uploads/
 blog/wp-content/upgrade/
@@ -79,9 +82,11 @@ build/
 *.backup
 
 # Compressed Files (except source files)
-*.zip
 *.tar.gz
 *.rar
+
+# Database ZIP (DO NOT COMMIT - Contains sensitive data)
+EduFlow-Database.zip
 
 # Keep these files
 !blog/wp-content/themes/edulearn-theme/
