@@ -379,22 +379,6 @@ footer {
     }
 }
 
-/* Fix admin bar pushing content down */
-html body.admin-bar header {
-    top: 32px;
-}
-
-@media screen and (max-width: 782px) {
-    html body.admin-bar header {
-        top: 46px;
-    }
-}
-
-/* Fix content not hidden behind sticky header */
-main {
-    padding-top: 5rem !important;
-}
-
 /* WordPress Specific */
 .wp-block-image {
     margin: 2rem 0;
